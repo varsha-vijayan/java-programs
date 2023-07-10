@@ -7,7 +7,7 @@ abstract class shape
 class rectangle extends shape
 {
 	public int area_rect;
-	public void findarea()
+	public void printarea()
 {
  	 Scanner s=new Scanner(System.in);
  	 System.out.println("enter the length and breadth of rectangle");
@@ -21,7 +21,7 @@ class rectangle extends shape
 class square extends shape
 {
  	double area_sq;
- 	public void findarea()
+ 	public void printrea()
 {
 	Scanner s=new Scanner(System.in);
 	System.out.println("enter the side of square:");
@@ -33,7 +33,7 @@ class square extends shape
 class circle extends shape
 {
 	double area_circle;
-	public void findarea()
+	public void printarea()
 {
 	Scanner s=new Scanner(System.in);
 	System.out.println("enter the radius of circle:");
